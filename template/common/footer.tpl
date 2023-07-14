@@ -28,7 +28,6 @@
 						<h5 class="footer-list-title"><?=$text_extra?></h5>
 						<ul class="footer-list">
 							<li><a href="<?=$manufacturer?>"><?=$text_manufacturer?></a></li>
-							<li><a href="<?=$affiliate?>"><?=$text_affiliate?></a></li>
 							<li><a href="<?=$special?>"><?=$text_special?></a></li>
 						</ul>
 					</div>

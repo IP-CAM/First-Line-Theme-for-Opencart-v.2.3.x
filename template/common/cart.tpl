@@ -30,7 +30,7 @@
 										<td class="product_title"><a href="<?=$product['href']?>"><?=$product['name']?></a></td>
 										<td>
 											<div class="my_quantity"> 
-												<input type="text" name="quantity[<?php echo $product['cart_id']; ?>]" class="quant" value ="<?php echo $product['quantity']; ?>" size="5" class="form-control"/>
+												<input type="text" name="quantity[<?php echo $product['cart_id']; ?>]" class="quant" value ="<?php echo $product['quantity']; ?>" size="5" disabled/>
 											</div>
 										</td>
 										<td class="product-price"><?=$product['total']?></td>

@@ -2,7 +2,7 @@
 
 <main class="main-content">
 
-<div id="content" class="<?php echo $class; ?>">
+<div id="content">
 	<?=$content_top?>
 
 	<?=$content_bottom?>
