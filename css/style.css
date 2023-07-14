@@ -108,15 +108,19 @@ textarea[class] {
           box-shadow: none;
 }
 
-.pagination > li > span:hover,
+.pagination > .active > span:hover,
 .pagination > li > a:hover {
   color: #af161d;
+	background-color: #eee;
+	cursor: pointer;
 }
 
 .pagination > li > span,
 .pagination > li > a {
   border: none;
   color: #D81C25;
+	transition: all .3s;
+	-webkit-transition: all 0.3s;
 }
 
 .pagination a {
