@@ -27,9 +27,6 @@
 								<address>
 								<?php echo $address; ?>
 								</address>
-								<?php if ($geocode) { ?>
-								<a href="https://maps.google.com/maps?q=<?php echo urlencode($geocode); ?>&hl=<?php echo $geocode_hl; ?>&t=m&z=15" target="_blank" class="btn mybtn"><i class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>
-								<?php } ?>
 							</div>
 							<div class="col-sm-3"><strong><?php echo $text_telephone; ?></strong><br>
 								<?php echo $telephone; ?><br />
@@ -48,6 +45,11 @@
 								<?php if ($comment) { ?>
 								<strong><?php echo $text_comment; ?></strong><br />
 								<?php echo $comment; ?>
+								<?php } ?>
+							</div>
+							<div class="col-sm-3">
+								<?php if ($geocode) { ?>
+								<a href="https://maps.google.com/maps?q=<?php echo urlencode($geocode); ?>&hl=<?php echo $geocode_hl; ?>&t=m&z=15" target="_blank" class="btn mybtn"><i class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>
 								<?php } ?>
 							</div>
 						</div>

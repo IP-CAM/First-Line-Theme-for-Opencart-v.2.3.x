@@ -109,6 +109,10 @@ textarea[class] {
 	font-size: 15px;
 }
 
+select[class] {
+	min-height: 36px;
+}
+
 .pagination > .active > span:hover,
 .pagination > li > a:hover {
   color: #af161d;
@@ -629,7 +633,7 @@ textarea[class] {
 .category .category-item-inner {
   position: relative;
   background-color: #fff;
-  height: 200px;
+  height: 175px;
   margin-bottom: 30px;
   display: block;
   padding: 20px 10px;
@@ -644,8 +648,8 @@ textarea[class] {
 .category .category-item-inner img {
   -o-object-fit: cover;
   object-fit: cover;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   margin: 5px auto 0;
 }
 
@@ -656,8 +660,9 @@ textarea[class] {
   bottom: 17.5px;
   left: 12px;
   right: 12px;
-  height: 16.5px;
+  height: 35px;
   overflow: hidden;
+	margin: 0;
 }
 
 /* Categories */
@@ -1605,6 +1610,10 @@ a.category-aside-item.subcategory {
 .special {
   margin: 0;
   margin-bottom: 50px;
+}
+
+.information-contact a.mybtn {
+	padding: 10px 10px;
 }
 
 /* information */
