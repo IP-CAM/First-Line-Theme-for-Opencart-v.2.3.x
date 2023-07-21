@@ -1734,6 +1734,9 @@ a.category-aside-item.subcategory {
     margin-left: auto;
     margin-right: auto;
   }
+	.product-card .product-card-prices {
+		text-align: center;
+	}
 }
 @media (max-width: 767px) {
   .main-section .bg-line {
