@@ -1,4 +1,4 @@
-<?=$header?>
+<?php echo $header; ?>
 <section class="main-content product-card">
 	<div class="container">
 		<div class="row">
@@ -456,4 +456,4 @@
 
 
 
-<?=$footer?>
+<?php echo $footer; ?>
