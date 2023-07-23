@@ -1616,6 +1616,11 @@ a.category-aside-item.subcategory {
 	padding: 10px 10px;
 }
 
+.account-order .btn-back {
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
 /* information */
 @media (max-width: 1200px) {
   .main-section .bg-line {
